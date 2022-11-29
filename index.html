@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<style type="text/css">
+	.highlighted {
+		background-color: yellow;
+	}
+
+	.highlight {
+		background-color: #fff34d;
+		-moz-border-radius: 5px;
+		/* FF1+ */
+		-webkit-border-radius: 5px;
+		/* Saf3-4 */
+		border-radius: 5px;
+		/* Opera 10.5, IE 9, Saf5, Chrome */
+		-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+		/* FF3.5+ */
+		-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+		/* Saf3.0+, Chrome */
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+		/* Opera 10.5+, IE 9.0 */
+	}
+
+	.highlight {
+		padding: 1px 4px;
+		margin: 0 -4px;
+	}
+
+	.centerh1 {
+		text-align: center;
+	}
+
+	.tabh3 {
+		margin-left: 50px;
+	}
+
+	.tabh4 {
+		margin-left: 100px;
+	}
+
+	.pcenter {
+		text-align: center;
+	}
+	.tablehead>tr>td{
+		background-color: red;
+		font-weight: bold;
+		color: white;
+	}
+	.btn1{
+		border-radius: 10px;
+		background-color: red;
+		color: white;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+		padding: 10px 20px;
+	}
+	.btn1:hover{
+		background-color: white;
+		border: 2px solid red;
+		text-decoration: none;
+		color: red !important;
+	}
+
+
+	td {
+		text-align: center;
+		padding: 20px;
+		margin: 10px;
+	}
+</style>
+<body>
+	<!-- url https://conectados.com.co/group/guest/~/control_panel/manage?p_p_id=com_liferay_knowledge_base_web_portlet_AdminPortlet&p_p_lifecycle=0&p_p_state=maximized&_com_liferay_knowledge_base_web_portlet_AdminPortlet_mvcPath=%2Fadmin%2Fedit_article.jsp&_com_liferay_knowledge_base_web_portlet_AdminPortlet_redirect=%2Fgroup%2Fguest%2F~%2Fcontrol_panel%2Fmanage%2F-%2Fknowledge_base_admin%2Farticle%2F49139311%2Fmaximized%3F_com_liferay_knowledge_base_web_portlet_AdminPortlet_resourceClassNameId%3D88001%26_com_liferay_knowledge_base_web_portlet_AdminPortlet_redirect%3Dhttps%253A%252F%252Fconectados.com.co%252Fgroup%252Fguest%252F~%252Fcontrol_panel%252Fmanage%252F-%252Fknowledge_base_admin%252Ffolders%253F_com_liferay_knowledge_base_web_portlet_AdminPortlet_redirect%253Dhttps%25253A%25252F%25252Fconectados.com.co%25252Fgroup%25252Fguest%25252F%25257E%25252Fcontrol_panel%25252Fmanage%25252F-%25252Fknowledge_base_admin%25252Ffolders%25253F_com_liferay_knowledge_base_web_portlet_AdminPortlet_redirect%25253Dhttps%2525253A%2525252F%2525252Fconectados.com.co%2525252Fgroup%2525252Fguest%2525252F%2525257E%2525252Fcontrol_panel%2525252Fmanage%2525253Fp_p_id%2525253Dcom_liferay_knowledge_base_web_portlet_AdminPortlet%25252526p_p_lifecycle%2525253D0%25252526p_p_state%2525253Dmaximized%25252526p_p_mode%2525253Dview%25252526p_p_auth%2525253DinXIAQxI%252526_com_liferay_knowledge_base_web_portlet_AdminPortlet_parentResourcePrimKey%25253D15926873%252526_com_liferay_knowledge_base_web_portlet_AdminPortlet_parentResourceClassNameId%25253D88003%252526p_p_auth%25253DinXIAQxI%2526_com_liferay_knowledge_base_web_portlet_AdminPortlet_parentResourcePrimKey%253D44035760%2526_com_liferay_knowledge_base_web_portlet_AdminPortlet_parentResourceClassNameId%253D88003%2526p_p_auth%253DinXIAQxI%26p_p_auth%3DinXIAQxI&_com_liferay_knowledge_base_web_portlet_AdminPortlet_resourcePrimKey=49139311&p_p_auth=wuSC3ale -->
+
+	<div id="ind">
+        <h2>Índice</h2>
+        
+        <details><summary>1.<a href="#seccion_01">¿Qué es Universal+?</a></summary></details>
+        
+        <details><summary>2. <a href="#seccion_02">Objeciones</a></summary></details>
+
+        <details><summary>3. <a href="#seccion_03">Destacados del mes</a></summary></details>
+
+        <details><summary>4. <a href="#seccion_04">Oferta Comericial</a></summary></details>
+    </div>
+        
+    <div id="seccion_01">
+        <p> </p>
+        
+        <h1 class="centerh1">1. ¿Qué es Universal+?</h1>
+        
+        <p>Es un <i>pack</i> de canales <i>premium</i> con la mejor programación para todas las audiencias y miles de horas de contenido <i>on demand</i>. Conoce los canales que hacen parte de este paquete haciendo clic en cada flecha.</p>
+
+        <!-- *acordeon -->
+        <table class="table-autofit">
+            <tbody>
+                <tr>
+                    <td style="width: 0.07%"> </td>
+                    <td>
+                    <div class="accordion" id="acordeon_01_01">
+                    <div class="card">
+                    <div class="card-header" id="titulo_01_01"><button aria-controls="info_01_01" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_01_01" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">Universal Premiere</b></button></div>
+        
+                    <div aria-labelledby="titulo_01_01" class="panel-collapse collapse" data-parent="#acordeon_01_01" id="info_01_01" style="">
+                    <div class="table-responsive">
+                    <table align="center" class="table-autofit">
+                        <tbody>
+                            <tr style="background-color: #WHITE">
+                            </tr>
+                            <tr style="background-color: #WHITE">
+                                <td style="width: 300px; color: BLACK">
+                                <p align="center"> </p>
+        
+                                <ul>
+                                    <li>Las mejores series recientemente estrenadas en Estados Unidos</li>
+                                    <li>Las series más premiadas por la crítica</li>
+                                </ul>
+        
+                                <p> </p>
+                                </td>
+                                <td rowspan="2" style="width: 200px">
+                                <p align="right"><img alt="img" src="https://conectados.com.co/documents/336077/50919603/Img_01.png/3327bd39-3f7e-20fa-b143-ef3282afce7c?t=1669049467267" style="width: 100%" /> <!--? incertar imagen del insumo .Pdf Pag. 2 Universal Prime --></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_01_02"><button aria-controls="info_01_02" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_01_02" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">Universal Cinema</b></button></div>
+        
+                    <div aria-labelledby="titulo_01_02" class="panel-collapse collapse" data-parent="#acordeon_01_01" id="info_01_02" style="">
+                    <div class="table-responsive">
+                    <table align="center" class="table-autofit">
+                        <tbody>
+                            <tr style="background-color: #WHITE">
+                            </tr>
+                            <tr style="background-color: #WHITE">
+                                <td style="width: 300px; color: BLACK">
+                                <p align="center"> </p>
+        
+                                <ul>
+                                    <li>El mejor catálogo de películas de NBCUniversal</li>
+                                    <li>Películas con todos los géneros para tu familia</li>
+                                </ul>
+        
+                                <p> </p>
+                                </td>
+                                <td rowspan="2" style="width: 200px">
+                                <p align="right"><img alt="img" src="https://conectados.com.co/documents/336077/50919603/Img_02.png/f4e5f194-b668-dc0e-1b9b-2371cf8da995?t=1669049467510" style="width: 100%" /> <!--? incertar imagen del insumo .Pdf Pag. 2 Universal cinema --></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_01_03"><button aria-controls="info_01_03" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_01_03" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">Universal Comedy</b></button></div>
+        
+                    <div aria-labelledby="titulo_01_03" class="panel-collapse collapse" data-parent="#acordeon_01_01" id="info_01_03" style="">
+                    <div class="table-responsive">
+                    <table align="center" class="table-autofit">
+                        <tbody>
+                            <tr style="background-color: #WHITE">
+                            </tr>
+                            <tr style="background-color: #WHITE">
+                                <td style="width: 300px; color: BLACK">
+                                <p align="center"> </p>
+        
+                                <ul>
+                                    <li>El mundo de las risas con el mejor contenido en series cómicas</li>
+                                    <li>Películas de comedia y las mejores maratones de tus series favoritas</li>
+                                </ul>
+        
+                                <p> </p>
+                                </td>
+                                <td rowspan="2" style="width: 200px">
+                                <p align="right"><img alt="img" src="https://conectados.com.co/documents/336077/50919603/Img_03.png/da584fca-b692-69ec-3421-7b9a545d51a8?t=1669049467726" style="width: 100%" /> <!--? incertar imagen del insumo .Pdf Pag. 2 Universal comedy --></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_01_04"><button aria-controls="info_01_04" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_01_04" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">Universal Crime</b></button></div>
+        
+                    <div aria-labelledby="titulo_01_04" class="panel-collapse collapse" data-parent="#acordeon_01_01" id="info_01_04" style="">
+                    <div class="table-responsive">
+                    <table align="center" class="table-autofit">
+                        <tbody>
+                            <tr style="background-color: #WHITE">
+                            </tr>
+                            <tr style="background-color: #WHITE">
+                                <td style="width: 300px; color: BLACK">
+                                <p align="center"> </p>
+        
+                                <ul>
+                                    <li>Catálogo de documentales de crimen de todos los tiempos</li>
+                                    <li>Historias reales y más escalofriantes que nunca</li>
+                                </ul>
+        
+                                <p> </p>
+                                </td>
+                                <td rowspan="2" style="width: 200px">
+                                <p align="right"><img alt="img" src="https://conectados.com.co/documents/336077/50919603/Img_04.png/04dca103-3a43-3222-50fc-a873b9f1c1be?t=1669049467937" style="width: 100%" /> <!--? incertar imagen del insumo .Pdf Pag. 2 Universal Crime --></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_01_05"><button aria-controls="info_01_05" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_01_05" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">Universal Reality</b></button></div>
+        
+                    <div aria-labelledby="titulo_01_05" class="panel-collapse collapse" data-parent="#acordeon_01_01" id="info_01_05" style="">
+                    <div class="table-responsive">
+                    <table align="center" class="table-autofit">
+                        <tbody>
+                            <tr style="background-color: #WHITE">
+                            </tr>
+                            <tr style="background-color: #WHITE">
+                                <td style="width: 300px; color: BLACK">
+                                <p align="center"> </p>
+        
+                                <ul>
+                                    <li>Los mejores <i>reality shows</i></li>
+                                    <li>Miles de horas de contenido sin guion</li>
+                                </ul>
+        
+                                <p> </p>
+                                </td>
+                                <td rowspan="2" style="width: 200px">
+                                <p align="right"><img alt="img" src="https://conectados.com.co/documents/336077/50919603/Img_05.png/4c5b4167-48db-ca28-a646-55a8f11bc3b2?t=1669049468467" style="width: 100%" /> <!--? incertar imagen del insumo .Pdf Pag. 2 Universal Reality --></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- *end acordeon -->
+        <br>
+    </div>
+                
+    <div id="seccion_02">
+        <p> </p>
+        
+        <h1 class="centerh1">2. Objeciones</h1>
+        
+        <p>Conoce algunas de las objeciones más frecuentes haciendo clic en cada frase.</p>
+
+        <!--* acordeon -->
+        <table class="table-autofit">
+            <tbody>
+                <tr>
+                    <td style="width: 0.07%"> </td>
+                    <td>
+                    <div class="accordion" id="acordeon_02_01">
+                    <div class="card">
+                    <div class="card-header" id="titulo_02_01"><button aria-controls="info_02_01" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_02_01" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">¿Qué es Universal+?</b></button></div>
+        
+                    <div aria-labelledby="titulo_02_01" class="panel-collapse collapse" data-parent="#acordeon_02_01" id="info_02_01" style="">
+                    <p>Un <i>pack</i> de canales <i>premium</i> que incluye la mejor combinación de programación para distintas audiencias, y miles de horas de contenido <i>on demand</i>.</p>
+                    </div>
+                    </div>
+        
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_02_03"><button aria-controls="info_02_03" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_02_03" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black">“Es muy costoso y ya tengo muchos gastos”</b></button></div>
+        
+                    <div aria-labelledby="titulo_02_03" class="panel-collapse collapse" data-parent="#acordeon_02_01" id="info_02_03" style="">
+                    <p>Comparándola con otras opciones de entretenimiento (por ejemplo, dos entradas al cine, entradas para un concierto o para un espectáculo deportivo), resulta más económica la contratación de este servicio.</p>
+                    </div>
+                    </div>
+        
+                    <div class="card">
+                    <div class="card-header" id="titulo_02_04"><button aria-controls="info_02_04" aria-expanded="false" class="btn btn-link btn-block collapsed" data-target="#info_02_04" data-toggle="collapse" style="font-size:20px"><img align="left" src="https://conectados.com.co/documents/336077/33801406/flechas.png/ca22a46c-b680-ca8d-cf8d-b62451f073f3?t=1659676312340" style="text-align: right" width="4%" /><b align="left" style="color: Black"> “Me encuentro satisfecho con mi programación y el contenido que disfruto a diario”</b></button></div>
+        
+                    <div aria-labelledby="titulo_02_04" class="panel-collapse collapse" data-parent="#acordeon_02_01" id="info_02_04" style="">
+                    <p>Con el paquete de <strong>Universal+</strong> podrás complementar tu oferta con contenido absolutamente original y para toda la familia con series originales y recientemente estrenadas en <strong>USA</strong>.</p>
+                    </div>
+                    </div>
+        
+                    </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!--* end acordeon -->
+        <br>
+    </div>
+
+    <div id="seccion_03">
+        <h1 class="centerh1">3. Destacados del mes.</h1>
+        <p>Conoce los destacados del mes.</p>
+        <p class="pcenter">
+            espacio destacados del mes
+        </p>
+    </div>
+
+    <div id="seccion_04">
+        <h1 class="centerh1">4. Oferta Comericial</h1>
+        <p>Conoce la oferta comercial para este paquete haciendo clic aqui.</p>
+        <p class="pcenter">
+            espacio enlace oferta comercial
+        </p>
+    </div>
+        <!-- *Important component-->
+        
+        <table align="center" class="table-autofit alert alert-success" style="width: 90%">
+            <tbody>
+                <tr>
+                    <td style="width: 90%">
+                    <h2 align="center"><b style="color:red">¡Muy bien!</b></h2>
+        
+                    <p class="pcenter" style="color:black ">Ya conoces los procedimientos, instructivos, recomendaciones y herramientas necesarias para gestionar adecuadamente los requerimientos relacionados con <strong>Universal+</strong>.​ Ten muy presente lo aprendido para tu gestión diaria.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- *end Important component-->
+        
+        <hr />
+
+
+	
+	<script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
